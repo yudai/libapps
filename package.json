@@ -1,17 +1,14 @@
 {
   "name": "libapps",
-  "version": "1.0.0",
+  "version": "1.70.0",
   "description": "Grab bag of js, including hterm and its support library.",
-  "main": "libdot/js/lib.js",
+  "main": "hterm/dist/js/hterm_module.js",
   "repository": {
     "type": "git",
     "url": "https://chromium.googlesource.com/apps/libapps.git"
   },
   "author": "Chromium authors",
   "license": "BSD-3-Clause",
-  "files": [
-    "README.md"
-  ],
   "devDependencies": {},
   "dependencies": {},
   "bugs": {

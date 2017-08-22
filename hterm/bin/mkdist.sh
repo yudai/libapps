@@ -40,6 +40,7 @@ function concat() {
   insist "${concat[@]}" -i ./concat/hterm_resources.concat -o \
     "$outdir/hterm_resources.js"
   insist "${concat[@]}" -i ./concat/hterm.concat -o "$outdir/hterm.js"
+  insist "${concat[@]}" -i ./concat/hterm_module.concat -o "$outdir/hterm_module.js"
 
   cat "$outdir/hterm_deps.js" "$outdir/hterm_resources.js" \
     "$outdir/hterm.js" > "$outdir/hterm_all.js"
